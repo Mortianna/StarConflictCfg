@@ -409,22 +409,22 @@ function ConfigureMatchmaker()
 
 	--
 	--arcadeQueueTemplate.levelsDesc = "s1338_pandora_dreadnwreck:4; s1340_thar_aliendebris13:4; s8256_thar_threshold:4"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 15, 0, 20, { special = { queueFlags = { newbie = 1, }, }, maxPlayers = 16 } ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 17, 0, 20, { special = { queueFlags = { newbie = 1, }, }, maxPlayers = 16 } ) )
 	--
 	--arcadeQueueTemplate.levelsDesc = "s1338_devilsjaw:4,9,10; s1340_aliendestsatation:4,10; s1340_thar_gasgiant:4,9; s1420_ceres3_northmsite:4,9,10"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 15, 19, 24 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 17, 19, 24 ) )
 	--
 	--arcadeQueueTemplate.levelsDesc = "s1420_ceres3_asteroidcity:4,9,10,11; s1420_ceres3_northmsite:4,11; s8256_thar_barrierdebris:4,9,11; s8256_thar_threshold:4,9,10; s1347_livestation:4,10"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 15, 24, 31 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 17, 24, 31 ) )
 	--
 	--arcadeQueueTemplate.levelsDesc = "s1338_pandora_anomaly:3,4,9,11; s1338_pandora_dreadnwreck:3,9,10,11; s1420_ceres3_asteroidcity:4,10; s1420_ceres3_northmsite:3,9,11; s8256_thar_lavastone:4,10"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 15, 31, 39 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 17, 31, 39 ) )
 	--
 	--arcadeQueueTemplate.levelsDesc = "s1338_pandora_anomaly:3,4,10; s1338_pandora_dreadnwreck:3,4,9,11; s1340_aliendestsatation:3; s1340_thar_aliendebris13:3,4,9,10; s8256_thar_threshold:3,4,9"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 15, 39, 51 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 17, 39, 51 ) )
 	--
 	--arcadeQueueTemplate.levelsDesc = "s1338_devilsjaw:3,4,9; s1340_aliendestsatation:3,4,9,10; s1340_thar_gasgiant:3,4; s1420_ceres3_northmsite:9; s8256_thar_lavastone:3,10,11; s8256_thar_threshold:3,11"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 15, 51, 99 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 17, 51, 99 ) )
 
 	local coopQueueTemplate = {
 		maxPlayers = 12,
@@ -445,22 +445,22 @@ function ConfigureMatchmaker()
 
 	--
 	--coopQueueTemplate.levelsDesc = "s1338_pandora_dreadnwreck:4; s1340_thar_aliendebris13:4; s8256_thar_threshold:4"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 15, 1, 15, 0, 21, { special = { queueFlags = { newbie = 1, }, coop_vs_ai = 1 }, maxPlayers = 8 } ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 17, 1, 17, 0, 21, { special = { queueFlags = { newbie = 1, }, coop_vs_ai = 1 }, maxPlayers = 8 } ) )
 	--
 	--coopQueueTemplate.levelsDesc = "s1338_devilsjaw:4,9,10; s1340_aliendestsatation:4,10; s1340_thar_gasgiant:4,9; s1420_ceres3_northmsite:4,9,10"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 15, 1, 15, 19, 24 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 17, 1, 17, 19, 24 ) )
 	--
 	--coopQueueTemplate.levelsDesc = "s1420_ceres3_asteroidcity:4,9,10,11; s1420_ceres3_northmsite:4,11; s8256_thar_barrierdebris:4,9,11; s8256_thar_threshold:4,9,10; s1347_livestation:4,10"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 15, 1, 15, 24, 31 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 17, 1, 17, 24, 31 ) )
 	--
 	--coopQueueTemplate.levelsDesc = "s1338_pandora_anomaly:3,4,9,11; s1338_pandora_dreadnwreck:3,9,10,11; s1420_ceres3_asteroidcity:4,10; s1420_ceres3_northmsite:3,9,11; s8256_thar_lavastone:4,10"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 15, 1, 15, 31, 39 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 17, 1, 17, 31, 39 ) )
 	--
 	--coopQueueTemplate.levelsDesc = "s1338_pandora_anomaly:3,4,10; s1338_pandora_dreadnwreck:3,4,9,11; s1340_aliendestsatation:3; s1340_thar_aliendebris13:3,4,9,10; s8256_thar_threshold:3,4,9"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 15, 1, 15, 39, 51 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 17, 1, 17, 39, 51 ) )
 	--
 	--coopQueueTemplate.levelsDesc = "s1338_devilsjaw:3,4,9; s1340_aliendestsatation:3,4,9,10; s1340_thar_gasgiant:3,4; s1420_ceres3_northmsite:9; s8256_thar_lavastone:3,10,11; s8256_thar_threshold:3,11"
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 15, 1, 15, 51, 99 ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 17, 1, 17, 51, 99 ) )
 
 
 	-- BRAWL--
