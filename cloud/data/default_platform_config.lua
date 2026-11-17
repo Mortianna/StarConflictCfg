@@ -67,7 +67,7 @@ function ConfigureShard()
 	cvars.auth_allowInternalAutoCreate	= 1
 	
 	-- Уровень доступа к sandbox-функциям. (тип: целое число)
-	cvars.sm_sandboxAccess				= 4
+	cvars.sm_sandboxAccess				= 3
 
 	-- Минимальное значение антибот-счётчика для отправки почты. (тип: целое число; диапазон: 0..100)
 	cvars.shard_minAntibotCounterForMailSending = 50
@@ -930,9 +930,9 @@ function ConfigureMatchmaker()
 
 	-- Множители выдаваемого опыта по рангам, список через запятую. (тип: строка)
 	-- reward multiplication rates
-	cvars.rate_exp					= "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+	cvars.rate_exp					= "3,3,3,3,3,3,3,3,3,5,5,5,7,7,7,9,9,9"
 	-- Множители выдаваемых кредитов по рангам, список через запятую. (тип: строка)
-	cvars.rate_cred					= "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+	cvars.rate_cred					= "3,3,3,5,5,5,7,7,7,9,9,9,12,12,12,15,15,15"
 
 	-- Детальность decision-log внутри матчмейкера. Это битовая маска: чтобы включить несколько категорий, сложите их числа.
 	-- 0 - выключено; 1 - базовые PvP-решения; 2 - PvP join-in-progress; 4 - PvP-кандидаты.
@@ -972,8 +972,8 @@ function ConfigureMatchmaker()
 			--"pve_jericho_base",
 			--"pve_wave_nalnifan_gate_lumen",
 			--"pve_wave_planet_war",
-		--	"s1347_geostation",
-		--	"s1515_piratebay",
+			"s1347_geostation",
+			"s1515_piratebay",
 			"s1550_pve_asteroid_building",
 			"s1550_pve_bigship_building",
 			"s1550_pve_bigship_building_2",
