@@ -1600,15 +1600,15 @@ end
 --
 function ConfigureGRD()
 	-- Если задано, добавляет bonus gold победителям боя. (тип: целое число)
-	cvars.reward_bonusGoldForWinner		= 0
+	cvars.reward_bonusGoldForWinner		= 133
 	-- Если задано, добавляет bonus gold проигравшим боя. (тип: целое число)
-	cvars.reward_bonusGoldForLooser		= 0
+	cvars.reward_bonusGoldForLooser		= 50
 
 	-- Период события «gold за первую и пятую победу» в формате 2013-04-12T12:00:00Z;2013-04-13T12:00:00Z. (тип: строка)
 	-- event 'gold for first and fifth win'
-	cvars.reward_eventGoldTimePeriod = "2025-09-02T12:00:00Z;2025-09-11T06:00:00Z"
+	cvars.reward_eventGoldTimePeriod = "19025-09-02T12:00:00Z;19025-09-11T06:00:00Z"
 	-- Размер награды события «gold за первую и пятую победу» в формате 500;0;0;0;5000. (тип: строка)
-	cvars.reward_eventGoldTimeValue	= "0;0;0;0;50;0;0;0;0;100;0;0;0;0;150;0;0;0;0;200"
+	cvars.reward_eventGoldTimeValue	= "50;100;150;250;550;650;750;850;950;3000;3500;3600;3700;3800;5000;5250;7500;100000;12500;333333"
 
 	-- Включает планировщик. (тип: целое число)
 	cvars.cron_enabled					= 1
