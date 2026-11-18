@@ -12,7 +12,7 @@ LootTable.Common =
 
 LootTable.Rare = 
 {
-    {   item = "Module_CommandArmorResist_T1_ET", drop_weight = 0.02,},
+    {   item = "Module_CommandArmorResist_T1_ET", drop_weight = 0.2,},
 }
 
 LootTable.CommonT1 = 
@@ -1256,6 +1256,16 @@ LootTable.resource_zeta_add_1_low =
     { item = "resource_zeta_final_add_1", drop_weight = 12, amount = 1 },
     { item = "resource_zeta_final_add_1", drop_weight = 6, amount = 2 },
     { item = "resource_zeta_final_add_1", drop_weight = 2, amount = 3 },
+}
+
+LootTable.LezortiumDrop = {
+    { item = "Aliens_ship_part", drop_weight = 50, },
+    { item = "AlienCompositeAlloy", drop_weight = 50, },
+}
+
+LootTable.NeodiumDrop = {
+    { item = "Aliens_ship_part", drop_weight = 50, },
+    { item = "AlienCompositeAlloy", drop_weight = 50, },
 }
 
 LootTable.autogen_pve =
