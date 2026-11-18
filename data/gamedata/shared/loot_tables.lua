@@ -1179,6 +1179,15 @@ LootTable.CommonRanks_1_3_v3 =
     {item = "Silver_Junk_T1_12", drop_weight = 10,},
     {item = "Silver_Junk_T1_13", drop_weight = 10,},
     {item = "Silver_Junk_T1_101", drop_weight = 10,},
+	-- Craft
+    {item = "ow_Impure_iridium", drop_weight = 10,},
+    {item = "ow_Silicon_wafer", drop_weight = 10,},
+    {item = "ow_Tungsten_ore", drop_weight = 10,},
+    {item = "ow_Crystal_shard", drop_weight = 10,},
+    {item = "ow_Osmium_ore", drop_weight = 10,},
+-- Aliens
+    { item = "Aliens_ship_part", drop_weight = 10, },
+    { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
 LootTable.CommonRanks_4_6_v3 = 
@@ -1190,6 +1199,15 @@ LootTable.CommonRanks_4_6_v3 =
     {item = "Silver_Junk_T2_12", drop_weight = 15,},
     {item = "Silver_Junk_T2_13", drop_weight = 15,},
     {item = "Silver_Junk_T2_101", drop_weight = 15,},
+	-- Craft
+    {item = "ow_Impure_iridium", drop_weight = 10,},
+    {item = "ow_Silicon_wafer", drop_weight = 10,},
+    {item = "ow_Tungsten_ore", drop_weight = 10,},
+    {item = "ow_Crystal_shard", drop_weight = 10,},
+    {item = "ow_Osmium_ore", drop_weight = 10,},
+-- Aliens
+    { item = "Aliens_ship_part", drop_weight = 10, },
+    { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
 LootTable.CommonRanks_7_8_v3 = 
@@ -1201,6 +1219,15 @@ LootTable.CommonRanks_7_8_v3 =
     {item = "Silver_Junk_T3_12", drop_weight = 20,},
     {item = "Silver_Junk_T3_13", drop_weight = 20,},
     {item = "Silver_Junk_T3_101", drop_weight = 20,},
+	-- Craft
+    {item = "ow_Impure_iridium", drop_weight = 10,},
+    {item = "ow_Silicon_wafer", drop_weight = 10,},
+    {item = "ow_Tungsten_ore", drop_weight = 10,},
+    {item = "ow_Crystal_shard", drop_weight = 10,},
+    {item = "ow_Osmium_ore", drop_weight = 10,},
+-- Aliens
+    { item = "Aliens_ship_part", drop_weight = 10, },
+    { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
 LootTable.CommonRanks_9_10_v3 = 
@@ -1212,6 +1239,15 @@ LootTable.CommonRanks_9_10_v3 =
     {item = "Silver_Junk_T4_12", drop_weight = 20,},
     {item = "Silver_Junk_T4_13", drop_weight = 20,},
     {item = "Silver_Junk_T4_101", drop_weight = 20,},
+	-- Craft
+    {item = "ow_Impure_iridium", drop_weight = 10,},
+    {item = "ow_Silicon_wafer", drop_weight = 10,},
+    {item = "ow_Tungsten_ore", drop_weight = 10,},
+    {item = "ow_Crystal_shard", drop_weight = 10,},
+    {item = "ow_Osmium_ore", drop_weight = 10,},
+-- Aliens
+    { item = "Aliens_ship_part", drop_weight = 10, },
+    { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
 LootTable.CommonRanks_11_12_v3 = 
@@ -1223,6 +1259,15 @@ LootTable.CommonRanks_11_12_v3 =
     {item = "Silver_Junk_T4_12", drop_weight = 20,},
     {item = "Silver_Junk_T4_13", drop_weight = 20,},
     {item = "Silver_Junk_T4_101", drop_weight = 20,},
+	-- Craft
+    {item = "ow_Impure_iridium", drop_weight = 10,},
+    {item = "ow_Silicon_wafer", drop_weight = 10,},
+    {item = "ow_Tungsten_ore", drop_weight = 10,},
+    {item = "ow_Crystal_shard", drop_weight = 10,},
+    {item = "ow_Osmium_ore", drop_weight = 10,},
+-- Aliens
+    { item = "Aliens_ship_part", drop_weight = 10, },
+    { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
 LootTable.CommonRanks_13_15_v3 =
@@ -1234,112 +1279,20 @@ LootTable.CommonRanks_13_15_v3 =
     { item = "Silver_Junk_T5_12", drop_weight = 2, },
     { item = "Silver_Junk_T5_13", drop_weight = 2, },
     { item = "Silver_Junk_T5_101", drop_weight = 2, },
+	-- Craft
+    {item = "ow_Impure_iridium", drop_weight = 10,},
+    {item = "ow_Silicon_wafer", drop_weight = 10,},
+    {item = "ow_Tungsten_ore", drop_weight = 10,},
+    {item = "ow_Crystal_shard", drop_weight = 10,},
+    {item = "ow_Osmium_ore", drop_weight = 10,},
+-- Aliens
+    { item = "Aliens_ship_part", drop_weight = 10, },
+    { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
 LootTable.CommonRanks_16_17_v3 =
 {
-    {item = "Module_InertialStabilizer_T5_Mk3", drop_weight = 1,},
-    {item = "Module_RotationThruster_T5_Mk3", drop_weight = 1,},
-    {item = "Module_KatalizatorInjector_T5_Mk3", drop_weight = 1,},
-    {item = "Module_BoostersOverloader_T5_Mk3", drop_weight = 1,},
-    {item = "Module_EngineGenerator_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ExtCapacitorBattary_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CapacitorRecharging_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ImplsDischarger_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CmplxBatt_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CpctrPwrRelay_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CptrEnrgBridge_T5_Mk3", drop_weight = 1,},
-    {item = "Module_AddShldGen_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ExtShld_T5_Mk3", drop_weight = 1,},
-    {item = "Module_AdaptiveForceField_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CuttedShieldHolder_T5_Mk3", drop_weight = 1,},
-    {item = "Module_SubMatterShield_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_HeavyArmor_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_AutoRepairUnit_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_LightArmor_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_CompositeArmor_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_PassiveArmor_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ProtonWall_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ScoutScanner_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_TurboScanner_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_CoProcessor_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_WideScanner_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_Recuperator_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ResistHullThermal_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ResistHullEMP_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ResistHullKinetic_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ResistShldThermal_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ResistShieldEMP_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ResistShieldKin_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_WeaponCoolant_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_BattleScanner_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_RangeMasterUnit_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_FastMissileRacks_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_CollisionComp_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_EmergencyBarrier_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ArmorPlates_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_ShieldExtender_T5_Mk3", drop_weight = 1,},
-    {item = "ModulePassive_AccelerationCoil_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Suicide_T5_Mk3", drop_weight = 1,},
-    {item = "Module_InfraredContermeasure_T5_Mk3", drop_weight = 1,},
-    {item = "Module_AchillesTargetingUnit_T5_Mk3", drop_weight = 1,},
-    {item = "Module_RemoteRepairDrones_T5_Mk3", drop_weight = 1,},
-    {item = "Module_EnergyEmitter_T5_Mk3", drop_weight = 1,},
-    {item = "Module_BoostJammerAOE_T5_Mk3", drop_weight = 1,},
-    {item = "Module_AOE_EMI_T5_Mk3", drop_weight = 1,},
-    {item = "Module_MissileDefenceType1_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Shift_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldEmitter_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldRestoreSmall_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldRestoreMedium_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldRestoreLarge_T5_Mk3", drop_weight = 1,},
-    {item = "Module_AdaptiveShieldBoost_T5_Mk3", drop_weight = 1,},
-    {item = "Module_SpyDrone_T5_Mk3", drop_weight = 1,},
-    {item = "Module_RepairDrones_s_T5_Mk3", drop_weight = 1,},
-    {item = "Module_RepairDrones_m_T5_Mk3", drop_weight = 1,},
-    {item = "Module_RepairDrones_l_T5_Mk3", drop_weight = 1,},
-    {item = "Module_AdaptiveArmorBoost_T5_Mk3", drop_weight = 1,},
-    {item = "Module_TargetPainter_T5_Mk3", drop_weight = 1,},
-    {item = "Module_EnergyVampire_T5_Mk3", drop_weight = 1,},
-    {item = "Module_FocusedEMI_T5_Mk3", drop_weight = 1,},
-    {item = "Module_StasisGenerator_T5_Mk3", drop_weight = 1,},
-    {item = "Module_IonRay_T5_Mk3", drop_weight = 1,},
-    {item = "Module_EcmJammer_T5_Mk3", drop_weight = 1,},
-    {item = "Module_WebPropulsion_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CommandShieldResist_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CommandArmorResist_T5_Mk3", drop_weight = 1,},
-    {item = "Module_CommandWeaknessAnalyzer_T5_Mk3", drop_weight = 1,},
-    {item = "Module_RepairRay_l_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldRay_l_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldChargeLarge_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ArmorChargeLarge_T5_Mk3", drop_weight = 1,},
-    {item = "Module_SmartBomb_T5_Mk3", drop_weight = 1,},
-    {item = "Module_GuidedDron_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldVampire_T5_Mk3", drop_weight = 1,},
-    {item = "Module_WarpGate_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Chameleon_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Flash_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Camouflage_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Eagleeye_T5_Mk3", drop_weight = 1,},
-    {item = "Module_SniperOverload_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Afterburner_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Screen_T5_Mk3", drop_weight = 1,},
-    {item = "Module_SpyBeacon_T5_Mk3", drop_weight = 1,},
-    {item = "Module_EnergyLance_T5_Mk3", drop_weight = 1,},
-    {item = "Module_Invulnerability_T5_Mk3", drop_weight = 1,},
-    {item = "Module_BoostBan_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShieldExplosion_T5_Mk3", drop_weight = 1,},
-    {item = "Module_SniperFastShot_T5_Mk3", drop_weight = 1,},
-    {item = "Module_GravitationAnalyzer_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ShelterField_T5_Mk3", drop_weight = 1,},
-    {item = "Module_GuidedDronRL_T5_Mk3", drop_weight = 1,},
-    {item = "Module_DoomBoost_T5_Mk3", drop_weight = 1,},
-    {item = "Module_ExternalCooler_T5_Mk3", drop_weight = 1,},
-    {item = "Weapon_Phaser_T5_Mk3", drop_weight = 1,},
-    {item = "Weapon_Fly_T5_Mk3", drop_weight = 1,},
-    {item = "Weapon_Radiation_Beam_T5_Mk3", drop_weight = 1,},
-    {item = "Module_FakeShips_T5_Mk3", drop_weight = 1,},
-    {item = "Module_HackSystems_T5_Mk3", drop_weight = 1,},
+	{ item = "Silver_Junk_T5_101", drop_weight = 10, },
 -- irridium
     {item = "Token_drop_T5", drop_weight = 30,},
 -- Craft
@@ -1348,6 +1301,9 @@ LootTable.CommonRanks_16_17_v3 =
     {item = "ow_Tungsten_ore", drop_weight = 10,},
     {item = "ow_Crystal_shard", drop_weight = 10,},
     {item = "ow_Osmium_ore", drop_weight = 10,},
+-- Aliens
+    { item = "Aliens_ship_part", drop_weight = 10, },
+    { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
 LootTable.resource_zeta_add_1 =

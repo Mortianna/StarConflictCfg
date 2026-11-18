@@ -427,8 +427,8 @@ function ConfigureMatchmaker()
 	table.insert( queuesConfigLo, InstantiateQueueTemplate( arcadeQueueTemplate, 1, 17, 1, 17, 51, 99 ) )
 
 	local coopQueueTemplate = {
-		maxPlayers = 24,
-		optimalPlayers = 24,
+		maxPlayers = 32,
+		optimalPlayers = 32,
 		minPlayers = 1,
 		regionLocalizedTimeInQueue = 5,
 		maxTimeInQueue = 5,
@@ -447,15 +447,15 @@ function ConfigureMatchmaker()
 			s8256_thar_lavastone = {3,4,9,10,11},
 		},
 		query = { ["mmParams.coop_vs_ai"] = 1, mmRank = { ["$gte"] = 1, ["$lte"] = 17 }, mmValue = { ["$gte"] = 0, ["$lt"] = 100 } },
-		special = { coop_vs_ai = 1, botsCount = 23 },
+		special = { coop_vs_ai = 1, botsCount = 31 },
 	}
 
 	-- Разделение по рангам кораблей (1-3, 4-6, 7-9, 10-12, 13-17) с полным добором ботов 12x12
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 3, 1, 3, 0, 100, { special = { coop_vs_ai = 1, botsCount = 23 }, maxPlayers = 24 } ) )
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 4, 6, 4, 6, 0, 100, { special = { coop_vs_ai = 1, botsCount = 23 }, maxPlayers = 24 } ) )
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 7, 9, 7, 9, 0, 100, { special = { coop_vs_ai = 1, botsCount = 23 }, maxPlayers = 24 } ) )
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 10, 12, 10, 12, 0, 100, { special = { coop_vs_ai = 1, botsCount = 23 }, maxPlayers = 24 } ) )
-	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 13, 17, 13, 17, 0, 100, { special = { coop_vs_ai = 1, botsCount = 23 }, maxPlayers = 24 } ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 1, 3, 1, 3, 0, 100, { special = { coop_vs_ai = 1, botsCount = 31 }, maxPlayers = 32 } ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 4, 6, 4, 6, 0, 100, { special = { coop_vs_ai = 1, botsCount = 31 }, maxPlayers = 32 } ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 7, 9, 7, 9, 0, 100, { special = { coop_vs_ai = 1, botsCount = 31 }, maxPlayers = 32 } ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 10, 12, 10, 12, 0, 100, { special = { coop_vs_ai = 1, botsCount = 31 }, maxPlayers = 32 } ) )
+	table.insert( queuesConfigLo, InstantiateQueueTemplate( coopQueueTemplate, 13, 17, 13, 17, 0, 100, { special = { coop_vs_ai = 1, botsCount = 31 }, maxPlayers = 32 } ) )
 	-- BRAWL--
 
 	local footballQueueTemplate = {
