@@ -375,8 +375,8 @@ function ConfigureMatchmaker()
 
 		-- PVE QUEUE
 		{
-			maxPlayers = 24,
-			minPlayers = 24,
+			maxPlayers = 32,
+			minPlayers = 32,
 			regionLocalizedTimeInQueue = 10,
 			maxTimeInQueue = 10,
 			levelsDesc = {},
@@ -879,7 +879,7 @@ function ConfigureMatchmaker()
 
 	-- Количество ботов. (тип: целое число; диапазон: 0..31)
 	-- Базовое количество ботов; в конкретной очереди может быть переопределено.
-	cvars.mm_botsCount = 6
+	cvars.mm_botsCount = 31
 
 	-- Базовый игровой режим для новой игровой сессии; в конкретной очереди может быть переопределён.
 	-- Возможные значения (не все работают):
@@ -1333,7 +1333,7 @@ function ConfigureDediServer()
 	_G.DedicatedServerServices_SetupBotPresetForbidden( botPresetForbiddenDefs )
 
 	-- Кикать ли игроков из боя, если ботов стало больше, чем игроков.
-	cvars.sv_kickExcessiveBotsEnabled = 1
+	cvars.sv_kickExcessiveBotsEnabled = 0
 
 	-- Количество лучших игроков, чьи корабли сохраняются для адаптивных пресетов; -1 — все игроки и все корабли. (тип: целое число; диапазон: -1..MAX_PLAYERS)
 	-- количество сохранения лучших игроков SC-115316
