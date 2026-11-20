@@ -958,12 +958,12 @@ function ConfigureMatchmaker()
 		{
 			{ hourBegin = 0, hourEnd = 1, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
 			{ hourBegin = 0, hourEnd = 3, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
-			{ hourBegin = 2, hourEnd = 5, goldReward = 50 },
+			{ hourBegin = 2, hourEnd = 5, goldReward = 100 },
 		},
 		
 		[ 6 ] =
 		{
-			{ hourBegin = 10, hourEnd = 13, goldReward = 100 },
+			{ hourBegin = 10, hourEnd = 13, goldReward = 150 },
 		},
 	}
 
@@ -1609,9 +1609,9 @@ end
 --
 function ConfigureGRD()
 	-- Если задано, добавляет bonus gold победителям боя. (тип: целое число)
-	cvars.reward_bonusGoldForWinner		= 133
+	cvars.reward_bonusGoldForWinner		= 200
 	-- Если задано, добавляет bonus gold проигравшим боя. (тип: целое число)
-	cvars.reward_bonusGoldForLooser		= 50
+	cvars.reward_bonusGoldForLooser		= 100
 
 	-- Период события «gold за первую и пятую победу» в формате 2013-04-12T12:00:00Z;2013-04-13T12:00:00Z. (тип: строка)
 	-- event 'gold for first and fifth win'
