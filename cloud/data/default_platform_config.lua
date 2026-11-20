@@ -939,7 +939,7 @@ function ConfigureMatchmaker()
 	-- reward multiplication rates
 	cvars.rate_exp					= "3,3,3,3,3,3,3,3,3,5,5,5,7,7,7,9,9,9"
 	-- Множители выдаваемых кредитов по рангам, список через запятую. (тип: строка)
-	cvars.rate_cred					= "3,3,3,5,5,5,7,7,7,9,9,9,12,12,12,15,15,15"
+	cvars.rate_cred					= "3,3,3,5,5,5,7,7,7,9,9,9,12,12,12,15,15,20"
 
 	-- Детальность decision-log внутри матчмейкера. Это битовая маска: чтобы включить несколько категорий, сложите их числа.
 	-- 0 - выключено; 1 - базовые PvP-решения; 2 - PvP join-in-progress; 4 - PvP-кандидаты.
@@ -956,14 +956,14 @@ function ConfigureMatchmaker()
 		-- day = 0; понедельник начинается с 0
 		[ 0 ] =
 		{
-			{ hourBegin = 0, hourEnd = 1, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
-			{ hourBegin = 0, hourEnd = 3, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
-			{ hourBegin = 2, hourEnd = 5, goldReward = 100 },
+			{ hourBegin = 0, hourEnd = 24, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
+			{ hourBegin = 0, hourEnd = 24, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
+			{ hourBegin = 0, hourEnd = 24, goldReward = 100 },
 		},
 		
 		[ 6 ] =
 		{
-			{ hourBegin = 10, hourEnd = 13, goldReward = 150 },
+			{ hourBegin = 18, hourEnd = 24, goldReward = 150 },
 		},
 	}
 
