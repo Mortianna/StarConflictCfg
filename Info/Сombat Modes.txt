@@ -9,3 +9,41 @@
 12: командное уничтожение (25 фрагов)
 
 10: Охота на маяк -- активный маяк спавнится динамически
+
+
+Официальная документация:
+
+	-- Базовый игровой режим для новой игровой сессии; в конкретной очереди может быть переопределён.
+	-- Возможные значения (не все работают):
+	-- 0 - none
+	-- 1 - space battle
+	-- 2 - capture the flag
+	-- 3 - capture the base
+	-- 4 - control
+	-- 5 - practice
+	-- 6 - tutorial
+	-- 7 - PvE mission
+	-- 8 - free space
+	-- 9 - sentinel
+	-- 10 - king of the hill
+	-- 11 - bomb the base
+	-- 12 - TDM
+	-- 13 - GTDM
+	-- 14 - clanship
+	-- 15 - capture the frag
+	-- 16 - last man standing
+	-- 17 - transport escort
+	-- 18 - open space
+	-- 19 - mission script
+	-- 20 - PvP mission
+	-- 21 - football
+	-- 22 - battle royale
+	-- 23 - capture the base 2
+	-- 24 - hunger games
+	-- 25 - one against all
+	-- 26 - ATDM
+	-- 27 - zombie
+	-- 28 - close distance
+	-- 29 - autogen DM
+	-- 30 - three teams DM
+	-- 31 - april control

@@ -67,7 +67,7 @@ function ConfigureShard()
 	cvars.auth_allowInternalAutoCreate	= 1
 	
 	-- Уровень доступа к sandbox-функциям. (тип: целое число)
-	cvars.sm_sandboxAccess				= 0
+	cvars.sm_sandboxAccess				= 4
 
 	-- Минимальное значение антибот-счётчика для отправки почты. (тип: целое число; диапазон: 0..100)
 	cvars.shard_minAntibotCounterForMailSending = 50
@@ -266,7 +266,7 @@ function ConfigureShard()
   
 	-- Дневной лимит token credits, которые игрок может заработать за день.
 	-- #106983
-	cvars.sv_tokenCreditsDailyLimit = 1000
+	cvars.sv_tokenCreditsDailyLimit = 3000
 
 	-- список запрещенного оборудования (кораблей и модулей) в лигах
 	Shard_SetupLeagueForbiddenEquipment( leagueForbiddenDefs )
