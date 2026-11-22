@@ -1292,16 +1292,16 @@ LootTable.CommonRanks_13_15_v3 =
 
 LootTable.CommonRanks_16_v3 =
 {
-	{ item = "Silver_Junk_T5_101", drop_weight = 2, },
+--credits junk
+	{ item = "Silver_Junk_T5_101", drop_weight = 1, },
 -- irridium
-    {item = "Token_drop_T5", drop_weight = 3,},
+    {item = "Token_drop_T5", drop_weight = 4,},
 }
 
 LootTable.CommonRanks_17_v3 =
 {
-	{ item = "Silver_Junk_T5_101", drop_weight = 1, },
 -- irridium
-    {item = "Token_drop_T5", drop_weight = 4,},
+    {item = "Token_drop_T5", drop_weight = 5,},
 }
 
 LootTable.resource_zeta_add_1 =
