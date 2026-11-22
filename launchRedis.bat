@@ -1,2 +1,2 @@
 @echo off
-start "" /D "%~dp0cloud\redis" start.bat
+start "" /D "%~dp0redis\" start.bat
