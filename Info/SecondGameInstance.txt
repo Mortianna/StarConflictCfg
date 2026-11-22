@@ -1,0 +1,9 @@
+StarConflict CE uses CreateMutex (name) check to prevent multiboxing, 
+so if u want to run a second game window, you need to edit via any HEX editor game.exe file.
+Steps: 
+1. make a copy of game.exe (like game2.exe)
+2. Open game2.exe in any Hex Editor (like HxD)
+3. Search for string StarConflict and change it to any other string with same number of symbols.
+(If you want less symbols, replace remains bytes to 00 in the string)
+4. Done, try to run
+
