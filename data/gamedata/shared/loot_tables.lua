@@ -1290,20 +1290,18 @@ LootTable.CommonRanks_13_15_v3 =
     { item = "AlienCompositeAlloy", drop_weight = 10, },
 }
 
-LootTable.CommonRanks_16_17_v3 =
+LootTable.CommonRanks_16_v3 =
 {
-	{ item = "Silver_Junk_T5_101", drop_weight = 10, },
+	{ item = "Silver_Junk_T5_101", drop_weight = 2, },
 -- irridium
-    {item = "Token_drop_T5", drop_weight = 30,},
--- Craft
-    {item = "ow_Impure_iridium", drop_weight = 10,},
-    {item = "ow_Silicon_wafer", drop_weight = 10,},
-    {item = "ow_Tungsten_ore", drop_weight = 10,},
-    {item = "ow_Crystal_shard", drop_weight = 10,},
-    {item = "ow_Osmium_ore", drop_weight = 10,},
--- Aliens
-    { item = "Aliens_ship_part", drop_weight = 10, },
-    { item = "AlienCompositeAlloy", drop_weight = 10, },
+    {item = "Token_drop_T5", drop_weight = 3,},
+}
+
+LootTable.CommonRanks_17_v3 =
+{
+	{ item = "Silver_Junk_T5_101", drop_weight = 1, },
+-- irridium
+    {item = "Token_drop_T5", drop_weight = 4,},
 }
 
 LootTable.resource_zeta_add_1 =

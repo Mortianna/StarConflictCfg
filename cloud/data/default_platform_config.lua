@@ -266,7 +266,7 @@ function ConfigureShard()
   
 	-- Дневной лимит token credits, которые игрок может заработать за день.
 	-- #106983
-	cvars.sv_tokenCreditsDailyLimit = 3000
+	cvars.sv_tokenCreditsDailyLimit = 150000
 
 	-- список запрещенного оборудования (кораблей и модулей) в лигах
 	Shard_SetupLeagueForbiddenEquipment( leagueForbiddenDefs )
@@ -1337,8 +1337,8 @@ function ConfigureDediServer()
 	[13] = { common = { lt = "CommonRanks_13_15_v3", iter = { 0 } }, rare = { lt = "RareT5Mono", iter = { 12,19,20,21,20,20,21,20,30,40,50 } }, epic = { lt = "RareT5", iter = { 100000, 100000 } } },
 	[14] = { common = { lt = "CommonRanks_13_15_v3", iter = { 0 } }, rare = { lt = "RareT5Mono", iter = { 13,20,21,20,20,22,20,23,32,40,50 } }, epic = { lt = "RareT5", iter = { 100000, 100000 } } },
 	[15] = { common = { lt = "CommonRanks_13_15_v3", iter = { 0 } }, rare = { lt = "RareT5Mono", iter = { 14,21,20,20,21,20,21,20,35,40,50 } }, epic = { lt = "RareT5", iter = { 100000, 100000 } } },
-	[16] = { common = { lt = "CommonRanks_16_17_v3", iter = { 0 } }, rare = { lt = "RareT5Mono", iter = { 14,21,20,20,21,20,21,20,35,40,50 } }, epic = { lt = "RareT5", iter = { 100000, 100000 } } },
-	[17] = { common = { lt = "CommonRanks_16_17_v3", iter = { 0 } }, rare = { lt = "RareT5Mono", iter = { 14,21,20,20,21,20,21,20,35,40,50 } }, epic = { lt = "RareT5", iter = { 100000, 100000 } } },
+	[16] = { common = { lt = "CommonRanks_16_v3", iter = { 0 } }, rare = { lt = "RareT5Mono", iter = { 14,21,20,20,21,20,21,20,35,40,50 } }, epic = { lt = "RareT5", iter = { 100000, 100000 } } },
+	[17] = { common = { lt = "CommonRanks_17_v3", iter = { 0 } }, rare = { lt = "RareT5Mono", iter = { 14,21,20,20,21,20,21,20,35,40,50 } }, epic = { lt = "RareT5", iter = { 100000, 100000 } } },
 	}
 	)
 
@@ -1609,15 +1609,15 @@ end
 --
 function ConfigureGRD()
 	-- Если задано, добавляет bonus gold победителям боя. (тип: целое число)
-	cvars.reward_bonusGoldForWinner		= 200
+	cvars.reward_bonusGoldForWinner		= 500
 	-- Если задано, добавляет bonus gold проигравшим боя. (тип: целое число)
 	cvars.reward_bonusGoldForLooser		= 100
 
 	-- Период события «gold за первую и пятую победу» в формате 2013-04-12T12:00:00Z;2013-04-13T12:00:00Z. (тип: строка)
 	-- event 'gold for first and fifth win'
-	cvars.reward_eventGoldTimePeriod = "19025-09-02T12:00:00Z;19025-09-11T06:00:00Z"
+	cvars.reward_eventGoldTimePeriod = "2026-09-02T12:00:00Z;19025-09-11T06:00:00Z"
 	-- Размер награды события «gold за первую и пятую победу» в формате 500;0;0;0;5000. (тип: строка)
-	cvars.reward_eventGoldTimeValue	= "50;100;150;250;550;650;750;850;950;3000;3500;3600;3700;3800;5000;5250;7500;100000;12500;333333"
+	cvars.reward_eventGoldTimeValue	= "50;100;150;250;550;650;750;850;950;3000;3500;3600;3700;3800;5000;5250;7500;10000;12500;30000"
 
 	-- Включает планировщик. (тип: целое число)
 	cvars.cron_enabled					= 1
@@ -1628,7 +1628,7 @@ function ConfigureGRD()
 	cvars.store_creditsEventEnd			= creditsEventEnd
   
 	-- Дневной лимит token credits, которые игрок может заработать за день.
-	cvars.sv_tokenCreditsDailyLimit = 1000
+	cvars.sv_tokenCreditsDailyLimit = 150000
   
 	-- Максимальное значение leaveCounter. (тип: дробное число; диапазон: 0.0f..FLT_MAX)
     -- SC-113769
