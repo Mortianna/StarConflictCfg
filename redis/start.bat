@@ -1,4 +1,4 @@
 @echo off
 cd /d %~dp0
-redis-server.exe
+redis-server.exe redis.windows.conf
 pause
