@@ -1,0 +1,42 @@
+The Golden Hour Event override default exp and credtis rate, so 
+if you have common rates like
+
+cvars.rate_exp                    = "3,3,3,3,3,3,5,5,5,5,7,7,9,9,12,12,15,15"
+	-- Множители выдаваемых кредитов по рангам, список через запятую. (тип: строка)
+cvars.rate_cred					= "3,3,5,5,5,7,7,7,9,9,9,12,15,20,20,25,25,25"
+
+BUT
+
+	local reward_mult = {
+		-- day = 0; понедельник начинается с 0
+		[ 0 ] =
+		{
+			{ hourBegin = 0, hourEnd = 24, rateExp = "18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18", rateCred = "30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30", },
+			{ hourBegin = 0, hourEnd = 24, rateExp = "18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18", rateCred = "30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30", },
+			{ hourBegin = 0, hourEnd = 24, goldReward = 100 },
+		},
+		
+		[ 6 ] =
+		{
+			{ hourBegin = 18, hourEnd = 24, goldReward = 150 },
+		},
+	}
+
+you will get you rate 18 (or 1, if you set the time-based rates to 1)
+
+MORE HIGHER RATES:
+
+	local reward_mult = {
+		-- day = 0; понедельник начинается с 0
+		[ 0 ] =
+		{
+			{ hourBegin = 0, hourEnd = 24, rateExp = "3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000", rateCred = "300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300", },
+			{ hourBegin = 0, hourEnd = 24, rateExp = "3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000", rateCred = "300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300", },
+			{ hourBegin = 0, hourEnd = 24, goldReward = 100 },
+		},
+		
+		[ 6 ] =
+		{
+			{ hourBegin = 18, hourEnd = 24, goldReward = 150 },
+		},
+	}
