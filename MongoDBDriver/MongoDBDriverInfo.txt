@@ -1,0 +1,2 @@
+dotnet add package MongoDB.Driver --version 2.13.2
+uses .net 4.5.2 or higher
