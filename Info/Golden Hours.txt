@@ -40,3 +40,22 @@ MORE HIGHER RATES:
 			{ hourBegin = 18, hourEnd = 24, goldReward = 150 },
 		},
 	}
+
+
+
+DEFAULT RATES:
+
+	local reward_mult = {
+		-- day = 0; понедельник начинается с 0
+		[ 0 ] =
+		{
+			{ hourBegin = 0, hourEnd = 24, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
+			{ hourBegin = 0, hourEnd = 24, rateExp = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", rateCred = "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1", },
+			{ hourBegin = 0, hourEnd = 24, goldReward = 100 },
+		},
+		
+		[ 6 ] =
+		{
+			{ hourBegin = 18, hourEnd = 24, goldReward = 150 },
+		},
+	}
